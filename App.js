@@ -27,18 +27,18 @@ const App = () => {
 
 const styles = StyleSheet.create({
   star:{
-    marginBottom: "20px",
+    marginBottom: "30px",
     fontWeight: "bolder",
-    fontSize: "40px",
+    fontSize: "60px",
     color: "#fff"
   },
-    link:{
+  link:{
     color: "#fff"
   },
   use:{
     color: '#fff',
     fontSize:'20px',
-    marginBottom:'10px'
+    marginBottom: 5,
   },
   searchContainer: {
     width: '100%',
@@ -49,18 +49,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#8f8f8f',
     borderRadius: 10,
-    paddingHorizontal: 38,
+    paddingHorizontal: 109,
+    marginBottom: 10,
     paddingVertical: 8,
   },
   searchInput: {
     padding: 0,
-    marginLeft: 10,
+    marginLeft: 50,
     fontSize: 16,
   },
   container: {
     flex: 1,
+    backgroundColor: '#1e0f24',
+    marginTop: 50,
     alignItems: 'center',
-    backgroundColor: '#1e0f24'
   },
   orangeButton: {
     backgroundColor: '#FF4500',
